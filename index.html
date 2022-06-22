@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Percent Calculator</title>
+  </head>
+
+  <body>
+    <section class="percentCalculator">
+      <h1 class="main-title">Calculate your percents</h1>
+      <p class="text">&#128071 Calculate the percent of any number &#128071</p>
+      <label class="number" for="numberInp">
+        Write the number you want to calculate the percent:
+        <input id="numberInp" type="number" />
+      </label>
+      <label class="percent" for="percentInp">
+        Write the percent you want to know of the number that you wrote:
+        <input id="percentInp" type="number" />
+      </label>
+      <button type="button" onclick="onclickButtonPercent()" class="mainBtn">
+        Calculate Percent
+      </button>
+      <p class="resultP" id="result"></p>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
